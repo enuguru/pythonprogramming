@@ -1,0 +1,27 @@
+
+
+python programming faculty
+  Gururajan Narasimahan
+faulty coordinates
+python programming microsoft teams group link
+python programming github page
+python programming video recording link for each day
+python programming session TOC
+prerequisite - basic knowledge of programming in other language
+
+daily problems
+quiz - mcqs
+assignment - 
+through programs - learning by doing
+
+
+
+
+4 software
+
+anaconda
+git
+vim
+jupyter notebook 
+google colab
+

@@ -1,0 +1,9 @@
+
+Side note: A lock is also called a "mutex" is other languages.
+
+Source code: 11-more_locks.py
+
+Documentation:
+- https://en.wikipedia.org/wiki/Deadlock
+- https://docs.python.org/3/library/threading.html#threading.RLock
+- https://docs.python.org/3/library/threading.html#threading.current_thread

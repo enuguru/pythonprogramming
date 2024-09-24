@@ -1,0 +1,8 @@
+
+
+python leaders
+
+guido von russum
+david beazley
+raymond hettinger
+Jake Vanderplas - JVP
