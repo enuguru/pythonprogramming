@@ -1,0 +1,7 @@
+2024-09-27 17:29:28 - INFO - Starting the application
+2024-09-27 17:29:28 - INFO - Attempting to divide 10 by 5
+2024-09-27 17:29:28 - INFO - Division successful: 2.0
+2024-09-27 17:29:28 - INFO - Attempting to divide 10 by 0
+2024-09-27 17:29:28 - ERROR - Division by zero error
+2024-09-27 17:29:28 - WARNING - Exception caught in main: division by zero
+2024-09-27 17:29:28 - INFO - Application finished

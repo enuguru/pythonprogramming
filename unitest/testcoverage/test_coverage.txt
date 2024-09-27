@@ -1,0 +1,137 @@
+The `unittest` framework itself doesn't provide built-in support for **test coverage**. However, you can measure **test coverage** for your Python code using a separate tool called **`coverage.py`** in conjunction with the `unittest` framework.
+
+`coverage.py` is a popular tool that helps track how much of your code is executed when running your test cases. It can identify which lines of code are tested and which are not, allowing you to evaluate the effectiveness of your tests.
+
+### Steps to Measure Test Coverage Using `coverage.py` with `unittest`
+
+1. **Install `coverage.py`**:
+   First, you need to install `coverage.py`. You can install it via `pip`:
+
+   ```bash
+   pip install coverage
+   ```
+
+2. **Run Your Tests with Coverage**:
+   Use `coverage.py` to run your tests and generate a coverage report. Here's how you can do it:
+
+   - If your test script is named `test_script.py` and contains `unittest` tests, you can run:
+
+     ```bash
+     coverage run -m unittest discover
+     ```
+
+   This command runs all the tests discovered by `unittest` and tracks which parts of the code are executed.
+
+3. **Generate a Coverage Report**:
+   After running the tests, you can generate a coverage report in different formats.
+
+   - **Console Output** (text summary):
+
+     ```bash
+     coverage report
+     ```
+
+     This command will show a summary in your terminal, listing the percentage of code coverage for each module and the number of missing lines.
+
+   - **HTML Report** (detailed and clickable):
+
+     ```bash
+     coverage html
+     ```
+
+     This generates an HTML report in a `htmlcov/` directory. You can open the `index.html` file in a web browser to see a more detailed coverage report, including line-by-line information about which lines were executed and which were not.
+
+4. **Check Coverage for Specific Files**:
+   If you want to check the coverage of a specific Python file (e.g., `my_module.py`), you can run:
+
+   ```bash
+   coverage run -m unittest test_script
+   coverage report my_module.py
+   ```
+
+### Example Workflow
+
+Assume you have the following files:
+
+- **`my_module.py`**: Contains the code you're testing.
+- **`test_script.py`**: Contains the `unittest` tests for `my_module.py`.
+
+#### `my_module.py`:
+```python
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
+```
+
+#### `test_script.py`:
+```python
+import unittest
+from my_module import add, subtract, multiply
+
+class TestMyModule(unittest.TestCase):
+
+    def test_add(self):
+        self.assertEqual(add(3, 4), 7)
+
+    def test_subtract(self):
+        self.assertEqual(subtract(10, 5), 5)
+
+    def test_multiply(self):
+        self.assertEqual(multiply(3, 5), 15)
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+#### Running Tests with Coverage
+
+Run the tests and collect coverage data:
+
+```bash
+coverage run -m unittest test_script
+```
+
+#### Viewing Coverage Report in Terminal
+
+Generate a coverage report:
+
+```bash
+coverage report
+```
+
+Sample output might look like this:
+
+```
+Name            Stmts   Miss  Cover
+-----------------------------------
+my_module.py       12      3    75%
+test_script.py      9      0   100%
+-----------------------------------
+TOTAL              21      3    86%
+```
+
+This shows that **`my_module.py`** is 75% covered by the tests, with 3 lines missing coverage.
+
+#### Viewing Detailed HTML Report
+
+Generate the HTML report:
+
+```bash
+coverage html
+```
+
+You can now open `htmlcov/index.html` in a web browser to get a more detailed view of which specific lines are covered by the tests.
+
+### Conclusion
+
+Although the `unittest` framework itself doesn't provide test coverage analysis, combining it with `coverage.py` allows you to measure how much of your code is exercised by the tests. By integrating `coverage.py`, you can identify untested parts of your code and improve your tests for better code quality.

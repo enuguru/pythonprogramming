@@ -1,0 +1,7 @@
+2024-09-27 17:33:28 - INFO - Starting web scraper
+2024-09-27 17:33:28 - INFO - Fetching URL: https://example.com/news
+2024-09-27 17:33:28 - DEBUG - Starting new HTTPS connection (1): example.com:443
+2024-09-27 17:33:30 - DEBUG - https://example.com:443 "GET /news HTTP/1.1" 404 648
+2024-09-27 17:33:30 - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://example.com/news for URL: https://example.com/news
+2024-09-27 17:33:30 - ERROR - Failed to retrieve the page content
+2024-09-27 17:33:30 - INFO - Web scraper finished

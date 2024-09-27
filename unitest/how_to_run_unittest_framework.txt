@@ -1,0 +1,133 @@
+### What is the `unittest` Framework in Python?
+
+The `unittest` framework, also known as **PyUnit**, is the built-in Python testing framework that provides a robust structure for writing and running tests in Python. It is inspired by the **JUnit** framework in Java and is a part of Python’s standard library, making it readily available for testing your Python code without the need for external dependencies.
+
+The `unittest` framework allows developers to:
+- Write test cases (individual units of testing).
+- Group these test cases into test suites.
+- Execute tests in an automated way.
+- Check the correctness of code using a set of assertion methods.
+
+It provides a systematic way to define test cases (classes and functions), set up and tear down environments, and compare expected outcomes to actual results. It is commonly used for **unit testing**, but can also handle more complex **integration testing** scenarios.
+
+### Key Features of `unittest`:
+1. **Test discovery**: Automatically discover and run tests.
+2. **Test organization**: Group tests into test cases and suites.
+3. **Assertion methods**: A wide range of built-in assertions to verify the outcomes.
+4. **Test fixtures**: Support for setup and teardown operations before and after tests.
+5. **Mocking support**: Using `unittest.mock`, you can simulate behaviors of objects in your tests.
+
+### Basic Structure of a `unittest` Test
+
+A test written using `unittest` typically involves:
+1. **Test Case**: A class that inherits from `unittest.TestCase` and defines test methods.
+2. **Test Method**: Methods within the test case that perform the actual tests (usually named starting with `test_`).
+3. **Assertions**: Methods used to validate the correctness of the code under test.
+4. **Test Runner**: A utility that runs the tests and reports the results (e.g., `unittest.main()`).
+
+### Functions in the `unittest` Framework
+
+The `unittest` framework provides several **functions** (more accurately, methods) that you can use in your tests. These functions can be categorized into different groups:
+
+#### 1. **Assertion Methods**
+Assertion methods are the heart of the `unittest` framework. They compare actual outcomes of tests with expected values.
+
+- **`assertEqual(a, b)`**: Check if `a == b`.
+- **`assertNotEqual(a, b)`**: Check if `a != b`.
+- **`assertTrue(x)`**: Check if `x` is `True`.
+- **`assertFalse(x)`**: Check if `x` is `False`.
+- **`assertIs(a, b)`**: Check if `a is b` (identity).
+- **`assertIsNot(a, b)`**: Check if `a is not b` (non-identity).
+- **`assertIsNone(x)`**: Check if `x is `None`.
+- **`assertIsNotNone(x)`**: Check if `x is not `None`.
+- **`assertIn(a, b)`**: Check if `a` is in `b`.
+- **`assertNotIn(a, b)`**: Check if `a` is not in `b`.
+- **`assertGreater(a, b)`**: Check if `a > b`.
+- **`assertLess(a, b)`**: Check if `a < b`.
+- **`assertRaises(exception, callable, *args, **kwargs)`**: Check if the exception is raised when calling the function.
+- **`assertCountEqual(a, b)`**: Check if `a` and `b` contain the same elements in any order (used for comparing sequences).
+
+#### 2. **Test Fixture Methods**
+These methods are used to set up a consistent environment for your tests, ensuring that tests run under the same conditions.
+
+- **`setUp()`**: Method called before every individual test. Used to set up resources required for tests.
+- **`tearDown()`**: Method called after every individual test. Used to clean up resources.
+- **`setUpClass(cls)`**: Class-level setup method. Runs once before all tests in the class.
+- **`tearDownClass(cls)`**: Class-level teardown method. Runs once after all tests in the class.
+- **`addCleanup(function, *args, **kwargs)`**: Register a function to be called after the test completes, whether it passes or fails.
+
+#### 3. **Skipping Tests**
+You can choose to skip tests based on certain conditions.
+
+- **`unittest.skip(reason)`**: Decorator to skip a test method.
+- **`unittest.skipIf(condition, reason)`**: Skip the test if the condition is `True`.
+- **`unittest.skipUnless(condition, reason)`**: Skip the test unless the condition is `True`.
+- **`unittest.expectedFailure()`**: Marks a test as an expected failure (useful for tests that are known to fail but should not cause the entire suite to fail).
+
+#### 4. **Utility Functions**
+These functions provide additional utilities to organize or control the test environment.
+
+- **`fail(msg=None)`**: Forces the test to fail with an optional message.
+- **`subTest(msg=None, **params)`**: Create subtests within a test method (useful for testing multiple scenarios without breaking the whole test).
+- **`unittest.main()`**: Used to run the tests. It searches for `TestCase` subclasses and runs all test methods.
+
+### Example of Using the `unittest` Framework
+
+```python
+import unittest
+
+# Example function to test
+def multiply(a, b):
+    return a * b
+
+# Creating a test case
+class TestMultiplyFunction(unittest.TestCase):
+
+    # Setup method, runs before each test
+    def setUp(self):
+        self.a = 10
+        self.b = 5
+
+    # A test case
+    def test_multiply(self):
+        result = multiply(self.a, self.b)
+        self.assertEqual(result, 50)
+
+    # Another test case for edge cases
+    def test_multiply_with_zero(self):
+        self.assertEqual(multiply(self.a, 0), 0)
+
+    # Teardown method, runs after each test
+    def tearDown(self):
+        pass
+
+# Running the tests
+if __name__ == '__main__':
+    unittest.main()
+```
+
+### Running Tests with `unittest`
+
+There are several ways to run tests written using the `unittest` framework:
+
+1. **Running from Command Line**:
+   You can run the tests by running the Python script:
+   ```bash
+   python test_script.py
+   ```
+
+2. **Automatic Test Discovery**:
+   If your test files follow the naming convention `test_*.py`, you can automatically discover and run all tests in the directory:
+   ```bash
+   python -m unittest discover
+   ```
+
+3. **Running Specific Test Methods**:
+   You can specify which particular test method to run:
+   ```bash
+   python -m unittest test_script.TestMultiplyFunction.test_multiply
+   ```
+
+### Conclusion
+
+The `unittest` framework is a powerful and flexible way to write tests for your Python code. It helps you ensure that your code behaves as expected, while also providing mechanisms to organize and run tests systematically. With its built-in assertions, setup and teardown methods, and test discovery features, `unittest` is ideal for creating both simple unit tests and more complex testing scenarios.
