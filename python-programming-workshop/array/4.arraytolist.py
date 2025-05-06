@@ -1,5 +1,4 @@
 
-
 from array import array
 
 # Create a Unicode char array.

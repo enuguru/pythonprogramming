@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a34a886-242c-4c57-88b5-0d92dc3d8e13" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../array/4.arraytolist.py" beforeDir="false" afterPath="$PROJECT_DIR$/../array/4.arraytolist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/all_comprehension/list_comprehension.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/all_comprehension/list_comprehension.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/introduction/function_packing_unpacking.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/introduction/function_packing_unpacking.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/introduction/introduction_training.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/introduction/introduction_training.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/one_liners/all_one_liners_one.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/one_liners/all_one_liners_one.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/one_liners/perfect_number_oneliner.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/one_liners/perfect_number_oneliner.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/one_liners/primenumber_oneliner_list_comprehension.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/one_liners/primenumber_oneliner_list_comprehension.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/one_liners/remove_duplicates.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/one_liners/remove_duplicates.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/one_liners/reverse_sentence_words.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/one_liners/reverse_sentence_words.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/one_liners/reverse_string.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/one_liners/reverse_string.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/one_liners/swap_oneliner.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/one_liners/swap_oneliner.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level2/decorators/double_decorator_using_decorator_syntax.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level2/decorators/double_decorator_using_decorator_syntax.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level2/decorators/logging_decorator.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level2/decorators/logging_decorator.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level2/decorators/single_decorator_from_first_principles.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level2/decorators/single_decorator_from_first_principles.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level2/decorators/single_decorator_using_decorator_syntax.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level2/decorators/single_decorator_using_decorator_syntax.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level2/decorators/sleep_decorator.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level2/decorators/sleep_decorator.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level2/decorators/timing_decorator.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level2/decorators/timing_decorator.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level2/first_class_functions/first_class_functions.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level2/first_class_functions/first_class_functions.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level2/iterators_and_generators/generators.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level2/iterators_and_generators/generators.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level2/iterators_and_generators/iterators_ new.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level2/iterators_and_generators/iterators_ new.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unitest/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/../../unitest/.coverage" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2wRX4oWN58odkck5GGbIlYmhbfE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a34a886-242c-4c57-88b5-0d92dc3d8e13" name="Changes" comment="" />
+      <created>1746005172177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746005172177</updated>
+      <workItem from="1746005173730" duration="161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -6,7 +6,7 @@ def fibonacci2(n):
     b = 1
     for i in range(0, n):
         # Display the current Fibonacci number.
-        print(a)
+        print(a,end=" ")
         temp = a
         a = b
         b = temp + b
