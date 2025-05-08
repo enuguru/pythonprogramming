@@ -6,7 +6,6 @@ items = {"arrow", "spear", "arrow", "arrow", "rock"}
 # Print set.
 print(items)
 print(len(items))
-
 # Use in-keyword.
 if "rock" in items:
     print("Rock exists")
