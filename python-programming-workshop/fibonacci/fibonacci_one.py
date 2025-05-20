@@ -12,5 +12,5 @@ def fibonacci(n):
 
 # Display the first 15 Fibonacci numbers
 for c in range(0, 15):
-    print(fibonacci(c))
+    print(fibonacci(c),end=" ")
 

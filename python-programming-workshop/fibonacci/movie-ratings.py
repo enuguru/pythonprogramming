@@ -24,7 +24,18 @@ def get_average_ratings(movies_dict):
         avg_ratings[movie] = avg
     return avg_ratings
 
+def print_movie_ratings(movie_ratings):
+    print("Movie Ratings:")
+    for movie, ratings in movie_ratings.items():
+        print(f"{movie}: {ratings}")
+
+def print_average_ratings(avg_ratings):
+    print("\nAverage Ratings:")
+    for movie, avg in avg_ratings.items():
+        print(f"{movie}: {avg:.2f}")
+
 def print_top_movies(avg_ratings):
+    print("\nTop Movies:")
     sorted_movies = sorted(avg_ratings.items(), key=lambda x: x[1], reverse=True)
     for movie, rating in sorted_movies[:5]:
         print(f"{movie}: {rating:.2f}")
@@ -34,6 +45,9 @@ def main():
     data = read_file(file_path)
     movie_ratings = extract_movie_ratings(data)
     average_ratings = get_average_ratings(movie_ratings)
+    
+    print_movie_ratings(movie_ratings)
+    print_average_ratings(average_ratings)
     print_top_movies(average_ratings)
 
 main()

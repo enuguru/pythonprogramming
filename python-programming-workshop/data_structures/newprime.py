@@ -1,8 +1,9 @@
-def fib(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fib(n-1) + fib(n-2)
-print(fib(10))
+# Initialize first two numbers of fibonacci sequence
+fib = [0, 1]
+# Create fibonacci sequence up to 2000
+while True:
+    next_num = fib[-1] + fib[-2]
+    if next_num > 2000:
+        break
+    fib.append(next_num)
+print(fib)

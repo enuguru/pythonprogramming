@@ -30,7 +30,7 @@ def display_top_errors(count_dict):
         print(f"{error} - {count} times")
 
 def main():
-    path = "application.log"
+    path = "application.py"
     lines = read_logs(path)
     errors = parse_logs(lines)
     count = count_errors(errors)

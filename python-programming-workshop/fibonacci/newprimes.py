@@ -1,4 +1,5 @@
 #write a program to find the prime numbers between 1 to 1000 using a class and using sieve of eratosthenes method
+
 class PrimeFinder:
     def __init__(self, limit):
         self.limit = limit
