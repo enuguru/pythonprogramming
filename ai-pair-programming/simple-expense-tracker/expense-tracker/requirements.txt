@@ -2,4 +2,3 @@ Flask
 Flask-SQLAlchemy
 Flask-WTF
 WTForms
-SQLite

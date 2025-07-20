@@ -4,7 +4,35 @@
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a34a886-242c-4c57-88b5-0d92dc3d8e13" name="Changes" comment="" />
+    <list default="true" id="4a34a886-242c-4c57-88b5-0d92dc3d8e13" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../ai-pair-programming/simple-expense-tracker/expense-tracker/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ai-pair-programming/simple-expense-tracker/expense-tracker/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci/.idea/fibonacci.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../fibonacci/.idea/fibonacci.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fibonacci/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci/fibonacci_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fibonacci/fibonacci_one.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci/fibonacci_program.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fibonacci/fibonacci_program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci/fibonacci_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fibonacci/fibonacci_two.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci/movie-ratings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fibonacci/movie-ratings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci/newprimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fibonacci/newprimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/all_comprehension/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/all_comprehension/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/all_comprehension/all_comprehension.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/all_comprehension/all_comprehension.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/all_comprehension/list_comprehension.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/all_comprehension/list_comprehension.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/assignments_problems_homework/find_here.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/assignments_problems_homework/find_here.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/assignments_problems_homework/simple_if_else_solutions.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/assignments_problems_homework/simple_if_else_solutions.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/builtinfunctions/map_reduce_and_filter_special.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/builtinfunctions/map_reduce_and_filter_special.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/collections/collection_examples.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/collections/collection_examples.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/create_datastructures/set-built-in-functions.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/create_datastructures/set-built-in-functions.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/functions_and_lambda/.ipynb_checkpoints/function_scope-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/functions_and_lambda/.ipynb_checkpoints/function_scope-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/functions_and_lambda/function_scope.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/functions_and_lambda/function_scope.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/functions_and_lambda/functions.simple.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/functions_and_lambda/functions.simple.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/functions_and_lambda/what_is_a_function.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/functions_and_lambda/what_is_a_function.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/introduction/split_strip_slice.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/introduction/split_strip_slice.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/one_liners/perfect_number_oneliner.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/one_liners/perfect_number_oneliner.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/strings/string_literal.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/strings/string_literal.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/taking_input/input_output_string_formatting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/taking_input/input_output_string_formatting.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level1/taking_input/take_input_set_list_tuple_dictionary.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level1/taking_input/take_input_set_list_tuple_dictionary.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level2/iterators_and_generators/generators.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level2/iterators_and_generators/generators.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_programming_level2/iterators_and_generators/iterators_ new.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_programming_level2/iterators_and_generators/iterators_ new.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +84,7 @@
       <updated>1746005172177</updated>
       <workItem from="1746005173730" duration="161000" />
       <workItem from="1746529489747" duration="192000" />
+      <workItem from="1752986640429" duration="203000" />
     </task>
     <servers />
   </component>

@@ -1,9 +1,12 @@
 #write a program to find the prime numbers between 1 to 1000 using a class and using sieve of eratosthenes method
 
-class PrimeFinder:
+class Prime:
     def __init__(self, limit):
         self.limit = limit
         self.primes = []
+
+
+class PrimeFinder(Prime):
 
     def sieve_of_eratosthenes(self):
         # Initialize a boolean array of size limit+1 with True values
